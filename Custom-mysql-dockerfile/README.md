@@ -9,3 +9,12 @@
 
 ``` docker build -t mysqlimg . ```
 
+**Step 5:** Create a docker container using docker image (mysqlimg)
+
+``` docker run -d --name mysqlcontainer mysqlimg ```
+
+**Step 6:** Check container status
+
+``` docker ps ```
+
+
